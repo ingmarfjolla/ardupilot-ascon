@@ -13,3 +13,9 @@
 [submodule "submodules/c_library_v2"]
 	path = submodules/c_library_v2
 	url = https://github.com/ingmarfjolla/c_library_v2
+[submodule "submodules/ardupilot"]
+	path = submodules/ardupilot
+	url = https://github.com/ingmarfjolla/ardupilot
+[submodule "submodules/qgroundcontrol"]
+	path = submodules/qgroundcontrol
+	url = https://github.com/ingmarfjolla/qgroundcontrol
