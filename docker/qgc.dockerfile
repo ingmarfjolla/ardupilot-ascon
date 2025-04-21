@@ -26,7 +26,7 @@ RUN \
 	&& usermod -a -G dialout user
 USER user 
 WORKDIR /home/user
-RUN wget -P /home/user https://github.com/ingmarfjolla/ardupilot-ascon/releases/download/v1.0.0/QGroundControl-x86_64.AppImage
+RUN wget -P /home/user https://github.com/ingmarfjolla/ardupilot-ascon/releases/download/v1.1.1/QGroundControl-x86_64.AppImage
 
 RUN chmod +x /home/user/QGroundControl-x86_64.AppImage
 RUN chown -R user:user /home/user/QGroundControl-x86_64.AppImage
