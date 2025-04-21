@@ -39,3 +39,7 @@ docker run --rm -v ${PWD}:/project/source -v ${PWD}/build:/project/build qgc-ubu
 
 ## Upload firmware to pixhawk
 Use QGroundControl to upload the firmware you just built in the ArduPilot steps onto your autopilot (in my case pixhawk). I followed these steps: https://docs.qgroundcontrol.com/master/en/qgc-user-guide/setup_view/firmware.html and made sure I did `advanced>custom firwmare file > choose the.bin file in the ardupilot/build/bin directory`. You should now have the firmware on your autopilot! Happy testing. 
+
+
+## SITL 
+After QGC is built to run SITL and do your testing the instructions are exactly the same as here: https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html. I highly reccomend using Wireshark for log analysis while experimenting with SITL and using the lua plugin for mavlink. I have a prebuilt version in this repo [here](./docker/wireshark/mavlink_2_common.lua) or you can build it following the instructions on the mavlink website here: https://mavlink.io/en/guide/wireshark.html

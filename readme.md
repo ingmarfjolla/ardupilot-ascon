@@ -1,6 +1,6 @@
 # ArduPilot x Ascon
 
-This repo holds the work I have on adding Ascon(https://csrc.nist.gov/csrc/media/Presentations/2023/the-ascon-family/images-media/june-21-mendel-the-ascon-family.pdf) encryption to ArduPilot and QGroundControl. It's mainly a proof of concept and is not production ready nor does it uphold security properties since a couple of messages are not being encrypted and the nonce is currently hardcoded just to make this POC work.  
+This repo holds the work I have on adding Ascon(https://csrc.nist.gov/csrc/media/Presentations/2023/the-ascon-family/images-media/june-21-mendel-the-ascon-family.pdf) encryption of the mavlink payload to ArduPilot and QGroundControl. It's mainly a proof of concept and is not production ready nor does it uphold security properties since a couple of messages are not being encrypted and the nonce is currently hardcoded just to make this POC work.  
 
 To clone this repo and all it's submodules, run `git clone --recurse-submodules https://github.com/ingmarfjolla/ardupilot-ascon.git`.
 
